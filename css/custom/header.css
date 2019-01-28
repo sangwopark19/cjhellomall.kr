@@ -1,0 +1,25 @@
+/*
+	CSS : header
+*/
+
+.sub-wrap {position: absolute;top: 58px;}
+.pc-menu .nav-full .sub-1div {z-index: 100;}
+.pc-menu .menu-ul .menu-li:first-child { width: 250px;}
+.pc-menu .menu-ul .menu-li:first-child .menu-a { background-color: #2698ed;}
+.input-group-btn {padding-left: 1px;}
+
+.kakao-m {width: 50px;position: absolute;right: 0;top: 84px;}
+.kakao-m img {width: 100%;}
+
+@media all and (max-width:991px) {
+	.at-lnb  {display: none;}
+	
+	.col-md-3.at-side,
+	.at-main {width: 100%!important;min-height: auto!important;}
+	.at-row {background-color: transparent!important;}
+	.miso-category .ca-body {margin-top: 20px;}
+	.miso-category .ca-sub2 {padding: 5px 0;}
+	.miso-category .ca-sub2 li a {padding-top: 5px;padding-bottom: 5px;text-align: center;}
+	.responsive .at-body .at-col {padding-top: 0;}
+	.fast-apply .apply-wrap > div:first-child > div:last-child {text-align: center;}
+}	

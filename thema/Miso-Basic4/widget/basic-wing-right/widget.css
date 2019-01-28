@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+/* 오늘 본 상품 */
+.at-wing-right { position:relative; }
+.at-wing-right .container { position:relative; }
+#stv {z-index:1001;position:absolute;right: -135px;top: 20px;width:100px}
+#stv_list {position:absolute;width:166px; }
+#stv_list h2 {font-size:12px; margin:0px; padding:7px 0; background:#333; color:#fff; text-align:center;letter-spacing:-0.1em}
+#stv_pg {display:block;margin:5px 0 0}
+#stv_list p {padding:20px 0;text-align:center}
+#stv_btn {font-size:16px; padding-top:8px; text-align:center;zoom:1}
+#stv_btn:after {display:block;visibility:hidden;clear:both;content:""}
+#stv_btn i {cursor:pointer; color:#aaa; }
+#stv_btn button {float:left;margin:0;padding:5px 0 4px;width:44px;border:0;background:#555;color:#fff;text-align:center}
+#stv_ul {margin:5px 0 10px;padding:0;list-style:none}
+.stv_item {display:none;padding:0 9px;text-align:center;word-break:break-all}
+.stv_item img {margin:5px 0}
+
+#stv_nb {margin:0;padding:0;border-top:1px solid #eee;background:#fafafa;list-style:none}
+#stv_nb li {text-align:center; border-bottom:1px solid #eee;}
+#stv_nb li:last-child { border-bottom:0px; }
+#stv_nb a {display:block; padding:3px 0px; letter-spacing:-1px; }
+
+.side-list {text-align: center;border: 1px solid #ddd;border-bottom: none;margin-bottom: 10px;background:#fff;}
+.side-list li {padding: 20px 0;border-bottom: 1px solid #ddd;}
+
+#stv .btn-box {border:1px solid #646464;width: 87px;height: 26px;text-align: center;line-height: 24px;font-size: 13px;margin: 0 auto;margin-top: 22px;}
+
+#stv .side-list li .btn-box {color: #333}
+#stv .side-list li:first-child .btn-box:hover {background-color: #00c73c;color: #fff;border-color: #00c73c;}
+#stv .side-list li:nth-child(2) .btn-box:hover,
+#stv .side-list li:nth-child(3) .btn-box:hover {background-color: #fae300;color: #3b1d20;border-color: #fae300;}
+
+@media all and (max-width:1200px){
+	.at-wing-right {display: none;}
+}

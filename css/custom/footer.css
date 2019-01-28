@@ -1,0 +1,82 @@
+/*footer*/
+.fast-apply {display: table;width: 100%;background-image: url(/image/bottom-bg.jpg);background-size: cover;background-position: center center;}
+.fast-apply .ban-container {width: 100%;max-width: 600px;font-size: 14px;}
+.fast-apply .left-box .ban-container:first-child {float: right;text-align: right;}
+.fast-apply .right-box .ban-container:last-child {padding-left: 60px;}
+.fast-apply > div {display: table-cell;width: 50%;padding: 19px 0;vertical-align: middle;}
+.fast-apply > div a {color: #fff;font-weight: bold;font-size: 31px;margin: 0 10px;}
+.fast-apply > div span {font-size: 18px;width: 50%;float: left;padding-right: 10px;}
+.fast-apply > div span > input {width: 60%;}
+.fast-apply > div span > label {width: 30%;}
+.fast-apply > div:first-child {color: #fff;}
+.fast-apply .apply-wrap {overflow: hidden;}
+.fast-apply .apply-wrap > div {float: left;width: 75%;}
+.fast-apply .apply-wrap > div:last-child {width: 25%;}
+.fast-apply .apply-wrap > div:last-child .input-btn {background-color: #383838;color: #fff;padding: 20px 15px;border: none;font-size: 16px;}
+.fast-apply .apply-wrap > div:first-child > div {margin-bottom: 10px;}
+.fast-apply .apply-wrap > div:first-child > div:last-child {margin-bottom: 0px;}
+.fast-apply .input-txt {height: 30px;border: 1px solid #ddd;}
+.fast-apply .input-ck {margin: 0;}
+
+.fast-apply .left-box .ban-container:first-child span {position: relative;}
+.fast-apply .left-box .ban-container:first-child span img {position: absolute;left: 0;top: -10px;}
+
+.fast-apply > div a.more-bt {font-size: 13px;color: #333;font-weight: normal;}
+.sm-block {font-size: 14px!important;}
+
+.fast-apply {position: fixed;bottom: 0;left: 0;z-index: 10;}
+
+.at-footer {margin-bottom: 99px;}
+.at-footer .media {position: relative;}
+.at-footer .media-body {padding-left: 200px;}
+.at-footer .footer-logo {position: absolute;left: 0;top: 50px;}
+
+.fast-apply > div span img {width: 120px;}
+
+@media all and (max-width:1200px){
+	.sm-block {display: block;margin-bottom: 10px;}
+	.fast-apply .apply-wrap > div {width: 65%;}
+	.fast-apply .apply-wrap > div:last-child {width: 35%;}
+	.fast-apply .left-box .ban-container:first-child span {width: auto;}
+}
+@media all and (max-width:991px){
+	.fast-apply > div span > label,
+	.fast-apply > div span > input {width: 100%;}
+}
+@media all and (max-width:911px){
+	.at-footer .at-infos {padding-left: 10px;padding-right: 10px;}
+}
+@media all and (max-width:767px){
+	.responsive .at-footer .at-infos .media {padding: 0;}
+	.at-footer .at-infos {padding: 20px 0 20px;}
+	.at-footer .at-links {padding: 7px 0;}
+	
+	.fast-apply > div {width: 100%;display: block;}
+	.fast-apply {background-image: none;background-color: #f5f5f5;}
+	.fast-apply > div:first-child {color: #333;}
+	.fast-apply > div a {color: #428bca;}
+	.fast-apply .right-box .ban-container:last-child {padding-left: 0;}
+	.fast-apply .ban-container {margin: 0 auto;max-width: 500px;}
+	.fast-apply .left-box .ban-container:first-child {float: none;text-align: center;}
+	.fast-apply .apply-wrap > div:last-child {text-align: center;}
+	.fast-apply > div {padding-left: 10px;padding-right: 10px;}
+	
+	.fast-apply > div:first-child {display: none;}
+	.at-footer {margin-bottom: 129px;}
+	.at-footer .media-body {padding-left: 0;}
+	.at-footer .footer-logo {position: static;margin-bottom: 10px;}
+}
+@media all and (max-width:480px){
+	.fast-apply .apply-wrap > div:first-child > div:last-child {font-size: 12px;}
+	.fast-apply .apply-wrap > div:last-child .input-btn {padding: 10px 5px;font-size: 12px;}
+	.fast-apply > div span {font-size: 12px;}
+	.fast-apply > div a {font-size: 17px;}
+	.fast-apply > div:first-child {padding-bottom: 0;}
+	.fast-apply .apply-wrap > div:last-child {padding-top: 30px;}
+	.more-bt {display: block;}
+	.fast-apply .input-txt {height: auto;}
+	.fast-apply > div span > label,
+	.sm-block {margin-bottom: 0;}
+	.fast-apply > div {padding: 5px;}
+	.at-footer {margin-bottom: 104px;}
+}

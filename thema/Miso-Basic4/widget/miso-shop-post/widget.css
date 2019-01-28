@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.miso-shop-post { overflow:hidden; line-height:20px; }
+.miso-shop-post .media { margin-top:10px; }
+.miso-shop-post .media:first-child { margin-top:0px; }
+.miso-shop-post .fix-icon i { width:40px; height:40px; background:#f5f5f5; color:#bbb; line-height:40px; font-size:20px; }
+.miso-shop-post .fix-icon img { width:40px; height:40px; }
+.miso-shop-post .txt-normal { letter-spacing:0; }
+.miso-shop-post .txt-short { letter-spacing:-1px; padding-right:1px; }
+.miso-shop-post .post-subject b { letter-spacing:-1px; padding-right:1px; }
+.miso-shop-post .post-text { font-size:12px; color:#888; letter-spacing:-1px; padding-right:1px; }
+.miso-shop-post .post-sp { color:#ccc; margin:0px 2px; }
+.miso-shop-post .post-none { padding:50px 10px; color:#888; text-align:center; }
